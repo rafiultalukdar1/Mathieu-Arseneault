@@ -1,0 +1,625 @@
+/*
+====================================
+large Screen - Others
+====================================
+*/
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+
+    .sekretariatsservice-folgende-left h2 {
+        font-size: 44px;
+    }
+
+
+}
+
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .gap-x-40 {
+        row-gap: 50px;
+    }
+
+    /* kontakt page here */
+    .kontakt-hero-content h2 {
+        font-size: 58px;
+    }
+    .sekretariatsservice-hero-area-box,
+    .sekretariatsservice-hero-area-box2 {
+        display: none;
+    }
+    .sekretariatsservice-entlasten-left h2 {
+        font-size: 35px;
+    }
+    .sekretariatsservice-entlasten-left-box {
+        padding: 70px 65px;
+        max-width: 550px;
+    }
+    .sekretariatsservice-entlasten-right img {
+        height: 550px;
+    }
+    .sekretariatsservice-folgende-right {
+        padding-top: 50px;
+    }
+    .sekretariatsservice-folgende-right img {
+        min-height: initial;
+    }
+    .sekretariatsservice-folgende-left h2 {
+        font-size: 44px;
+    }
+    .sekretariatsservice-faq h2 {
+        font-size: 34px;
+    }
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+   .header-nav {
+        min-height: 80px;
+    }
+    .header-fixed .header-nav {
+        min-height: 80px;
+    }
+
+     .footer-block-one {
+        width: 50%;
+    }
+
+    .footer-block {
+        width: 50% !important;
+    }
+
+    .hero-main h1 {
+    font-size: 40px;
+    }
+
+    .hero-logo-wrap {
+        max-width: 320px;
+    }
+
+    .hero-logo-wrap ul {
+        grid-template-columns: auto 40px auto;
+    }
+
+    .hero-main ul li:nth-of-type(3) {
+      padding: 3px 20px;
+    }
+
+    .hero-main ul li {
+        padding: 5px;
+    }
+
+    .hero-header-wrapper {
+        padding-bottom: 120px;
+    }
+
+    .wellcome-main-pd {
+        grid-template-columns: 100%;
+        display: initial;
+        margin: 0;
+    }
+
+    .wellcome-right-pd h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .wellcome-right-pd {
+        padding: 0;
+    }
+
+    .wellcome-area-pd {
+        padding: 40px 0;
+    }
+
+    .wellcome-right-pd p:nth-of-type(1) {
+      margin-top: 20px;
+    }
+
+    .wellcome-right-pd p {
+        margin-top: 20px;
+    }
+
+    .spotlight-main-pd {
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 40px;
+    }
+
+    .img-size1 img {
+        max-width: 80px;
+    }
+
+    .spotlight-area-pd {
+        padding: 56px 0;
+    }
+
+    .spotlight-title-pd h2 {
+        font-size: 26px;
+    }
+
+    .advantages-title-pd h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .advantages-area-pd {
+        padding: 50px 0;
+    }
+
+    .advantages-main-pd {
+        margin-top: 30px;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+
+    .advantages-item-pd {
+        padding: 10px;
+        min-height: 130px;
+    }
+
+    .advantages-item-pd h4 {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+
+    .reviews-main-pd {
+        padding: 20px;
+    }
+
+    .reviews-main-pd h2 {
+        font-size: 26px;
+    }
+
+    .reviews-item-pd p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .reviews-item-pd p {
+        padding: 0 20px;
+    }
+
+    .reviews-item-pd p br {
+        display: none;
+    }
+
+    .reviews-slider-pd .splide__pagination {
+        display: none;
+    }
+
+    .reviews-item-pd span {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .custom-arrows1 button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .custom-arrows1 button i {
+        font-size: 16px;
+    }
+
+    .slide-left1 {
+        left: -8px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .slide-left2 {
+        right: -8px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .reviews-area-pd {
+        padding: 54px 0;
+    }
+
+    
+    .footer-area {
+        padding: 50px 0;
+    }
+
+    .map-area-pd iframe {
+        height: 320px;
+    } 
+    /* kontakt page here */
+    .kontakt-hero-content h2 {
+        font-size: 50px;
+    }
+    .kontakt-rt-left h4 {
+	    font-size: 30px;
+    }
+    .kontakt-rt-left form {
+        padding-top: 38px;
+    }
+    .kontakt-rt-right-bottom {
+        padding-top: 40px;
+        gap: 36px;
+    }
+    .sekretariatsservice-hero-area-box,
+    .sekretariatsservice-hero-area-box2 {
+        display: none;
+    }
+    .sekretariatsservice-entlasten-left h2 {
+        font-size: 34px;
+    }
+    .sekretariatsservice-entlasten-left-box {
+        padding: 70px 65px;
+        max-width: initial;
+        position: initial;
+        margin: 30px 0;
+    }
+    .sekretariatsservice-entlasten-right img {
+        height: initial;
+    }
+    .sekretariatsservice-entlasten {
+        padding: 90px 0;
+    }
+    .sekretariatsservice-folgende-right {
+        padding-top: 50px;
+    }
+    .sekretariatsservice-folgende-right img {
+        min-height: initial;
+    }
+    .sekretariatsservice-folgende-left h2 {
+        font-size: 38px;
+    }
+    .sekretariatsservice-faq h2 {
+        font-size: 34px;
+    }
+    .sekretariatsservice-faq {
+        padding-top: 20px;
+        padding-bottom: 70px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+/*==tablat==*/
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {
+    .header-nav {
+        min-height: 80px;
+    }
+    .header-fixed .header-nav {
+        min-height: 80px;
+    }
+    .header-area {
+        padding-inline: 3px;
+    }
+
+    .hero-main h1 {
+    font-size: 40px;
+    }
+
+    .hero-logo-wrap {
+        max-width: 320px;
+    }
+
+    .hero-logo-wrap ul {
+        grid-template-columns: auto 40px auto;
+    }
+
+    .hero-main ul li:nth-of-type(3) {
+      padding: 3px 20px;
+    }
+
+    .hero-main ul li {
+        padding: 5px;
+    }
+
+    .hero-header-wrapper {
+        padding-bottom: 120px;
+    }
+
+    .wellcome-main-pd {
+        grid-template-columns: 100%;
+        display: initial;
+        margin: 0;
+    }
+
+    .wellcome-right-pd h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .wellcome-right-pd {
+        padding: 0;
+    }
+
+    .wellcome-area-pd {
+        padding: 40px 0;
+    }
+
+    .wellcome-right-pd p:nth-of-type(1) {
+      margin-top: 20px;
+    }
+
+    .wellcome-right-pd p {
+        margin-top: 20px;
+    }
+
+    .spotlight-main-pd {
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 40px;
+    }
+
+    .img-size1 img {
+        max-width: 80px;
+    }
+
+    .spotlight-area-pd {
+        padding: 56px 0;
+    }
+
+    .spotlight-title-pd h2 {
+        font-size: 26px;
+    }
+
+    .advantages-title-pd h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .advantages-area-pd {
+        padding: 50px 0;
+    }
+
+    .advantages-main-pd {
+        margin-top: 30px;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+
+    .advantages-item-pd {
+        padding: 10px;
+        min-height: 130px;
+    }
+
+    .advantages-item-pd h4 {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+
+    .reviews-main-pd {
+        padding: 20px;
+    }
+
+    .reviews-main-pd h2 {
+        font-size: 26px;
+    }
+
+    .reviews-item-pd p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .reviews-item-pd p {
+        padding: 0 20px;
+    }
+
+    .reviews-item-pd p br {
+        display: none;
+    }
+
+    .reviews-slider-pd .splide__pagination {
+        display: none;
+    }
+
+    .reviews-item-pd span {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .custom-arrows1 button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .custom-arrows1 button i {
+        font-size: 16px;
+    }
+
+    .slide-left1 {
+        left: -8px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .slide-left2 {
+        right: -8px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .reviews-area-pd {
+        padding: 54px 0;
+    }
+
+    .footer-block-one {
+        width: 100%;
+    }
+
+    .footer-block {
+        width: 100% !important;
+    }
+
+    .footer-area {
+        padding: 50px 0;
+    }
+
+    .map-area-pd iframe {
+        height: 320px;
+    }
+
+    .copyright-flex-ad {
+        grid-template-columns: 100%;
+        row-gap: 10px;
+    } 
+
+    .copyright-left-ad ul {
+        justify-content: center;
+    }
+
+    .copyright-right-ad p {
+        text-align: center;
+    }
+
+    .copyright-main-ad {
+        padding-top: 25px;
+    }
+
+    /* kontakt page here */
+    .kontakt-hero-content h2 {
+        font-size: 50px;
+    }
+    .kontakt-hero-content {
+        gap: 36px;
+    }
+    .kontakt-rt-left h4 {
+	    font-size: 26px;
+    }
+    .kontakt-rt-left form {
+        padding-top: 38px;
+    }
+    .kontakt-rt-right-bottom {
+        padding-top: 40px;
+        gap: 36px;
+    }
+    .kontakt-rt-right-top h4 {
+        font-size: 26px;
+    }
+    .kontakt-rt-area {
+        margin-top: -180px;
+    }
+    .sekretariatsservice-hero-area-box,
+    .sekretariatsservice-hero-area-box2 {
+        display: none;
+    }
+    .sekretariatsservice-entlasten-left h2 {
+        font-size: 30px;
+    }
+    .sekretariatsservice-entlasten-left-box {
+        padding: 50px 50px;
+        max-width: initial;
+        position: initial;
+        margin: 30px 0;
+    }
+    .sekretariatsservice-entlasten-right img {
+        height: initial;
+    }
+    .sekretariatsservice-entlasten {
+        padding: 70px 0;
+    }
+    .sekretariatsservice-folgende-right {
+        padding-top: 30px;
+    }
+    .sekretariatsservice-folgende-right img {
+        min-height: initial;
+    }
+    .sekretariatsservice-folgende-left h2 {
+        font-size: 30px;
+    }
+    .sekretariatsservice-folgende {
+        padding: 60px 0;
+        padding-bottom: 0;
+    }
+    .sekretariatsservice-folgende-list {
+        padding-top: 30px;
+    }
+    .sekretariatsservice-folgende-list-first {
+        margin-bottom: 30px;
+    }
+    .sekretariatsservice-faq {
+        padding-top: 20px;
+        padding-bottom: 70px;
+    }
+    .sekretariatsservice-faq h2 {
+        font-size: 26px;
+    }
+   .sekretariatsservice-faq .acc-item button {
+        text-align: left;
+    }
+
+
+
+
+
+
+
+
+/*mobil*/
+}
+
+
+
+@media screen and (max-width: 575px) {
+
+    .site-logo a {
+        font-size: 15px;
+    }
+    /* kontakt page here */
+    .kontakt-hero-content h2 {
+        font-size: 34px;
+    }
+    .kontakt-hero-content-image a img {
+        max-width: 110px !important;
+        max-height: 35px !important;
+    }
+    .kontakt-rt-left {
+        padding: 30px;
+    }
+    .kontakt-rt-left h4 {
+	    font-size: 22px;
+    }
+    .kontakt-rt-left form {
+        padding-top: 24px;
+    }
+    .kontakt-rt-right-bottom {
+        padding-top: 40px;
+        gap: 36px;
+    }
+    .kontakt-rt-right-top h4 {
+        font-size: 24px;
+    }
+    .kontakt-rt-area {
+        margin-top: -140px;
+    }
+    .kontakt-rt-right {
+        padding: 30px;
+    }
+    .sekretariatsservice-entlasten-left-box {
+        padding: 15px 20px;
+        margin: 20px 0;
+    }
+    .sekretariatsservice-folgende-left h2 {
+        font-size: 28px;
+    }
+
+}
